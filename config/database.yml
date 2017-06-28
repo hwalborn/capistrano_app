@@ -82,4 +82,4 @@ production:
   <<: *default
   database: capistrano_app_production
   username: deploy
-  password: <%= ENV['CAPISTRANO_APP_DATABASE_PASSWORD'] %>
+  password: blizzard
