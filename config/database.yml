@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: capistrano_app_production
-  username: capistrano_app
+  username: deploy
   password: <%= ENV['CAPISTRANO_APP_DATABASE_PASSWORD'] %>
